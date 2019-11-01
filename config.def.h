@@ -19,7 +19,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9", "0" };
+static const char *tags[] = { "1", "2", "3", "4", "8", "9", "0" };
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -27,7 +27,7 @@ static const Rule rules[] = {
 	 *	WM_NAME(STRING) = title
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */
-	{ "discord",  NULL,       NULL,       1 << 9,       0,           -1 },
+	{ "discord",  NULL,       NULL,       1 << 6,       0,           -1 },
 };
 
 /* layout(s) */
@@ -87,12 +87,12 @@ static Key keys[] = {
 	TAGKEYS(                        XK_2,                      1)
 	TAGKEYS(                        XK_3,                      2)
 	TAGKEYS(                        XK_4,                      3)
-	TAGKEYS(                        XK_5,                      4)
-	TAGKEYS(                        XK_6,                      5)
-	TAGKEYS(                        XK_7,                      6)
-	TAGKEYS(                        XK_8,                      7)
-	TAGKEYS(                        XK_9,                      8)
-	TAGKEYS(                        XK_0,                      9)
+	/*TAGKEYS(                        XK_5,                      4)*/
+	/*TAGKEYS(                        XK_6,                      5)*/
+	/*TAGKEYS(                        XK_7,                      6)*/
+	TAGKEYS(                        XK_8,                      4)
+	TAGKEYS(                        XK_9,                      5)
+	TAGKEYS(                        XK_0,                      6)
 	{ MODKEY|ShiftMask,             XK_e,      quit,           {0} },
 };
 
