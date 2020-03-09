@@ -35,6 +35,7 @@ static const Rule rules[] = {
 	{ "discord",   NULL,      NULL,       1 << 6,       0,           -1 },
 	{ "matplotlib",NULL,      NULL,            0,       1,           -1 },
 	{ "Peek",      NULL,      NULL,            0,       1,           -1 },
+	{ "tk",        NULL,      NULL,            0,       1,           -1 },
 };
 
 /* layout(s) */
