@@ -24,7 +24,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "1", "2", "3", "4", "8", "9", "0" };
+static const char *tags[] = { "", "龜", "", "", "", "", "" };
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -32,7 +32,7 @@ static const Rule rules[] = {
 	 *	WM_NAME(STRING) = title
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */
-	{ "discord",   NULL,      NULL,       1 << 6,       0,           -1 },
+	{ "discord",   NULL,      NULL,       1 << 5,       0,           -1 },
 	{ "matplotlib",NULL,      NULL,            0,       1,           -1 },
 	{ "Peek",      NULL,      NULL,            0,       1,           -1 },
 	{ "tk",        NULL,      NULL,            0,       1,           -1 },
@@ -45,9 +45,9 @@ static const int resizehints = 1;    /* 1 means respect size hints in tiled resi
 
 static const Layout layouts[] = {
 	/* symbol     arrange function */
-	{ "[T]",      tile },    /* first entry is default */
-	{ "[F]",      NULL },    /* no layout function means floating behavior */
-	{ "[M]",      monocle },
+	{ "",      tile    },    /* first entry is default */
+	{ "",      monocle },
+	{ "",      NULL    },    /* no layout function means floating behavior */
 };
 
 /* key definitions */
