@@ -36,7 +36,7 @@ static const Rule rules[] = {
 	{ "matplotlib",       NULL,     NULL,  0,         1,          -1 },
 	{ "Peek",             NULL,     NULL,  0,         1,          -1 },
 	{ "tk",               NULL,     NULL,  0,         1,          -1 },
-	{ "blueman-manager",  NULL,     NULL,  0,         1,          -1 },
+	{ "Blueman-manager",  NULL,     NULL,  0,         1,          -1 },
 };
 
 /* layout(s) */
