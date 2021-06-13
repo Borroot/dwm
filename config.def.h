@@ -38,7 +38,8 @@ static const Rule rules[] = {
 	{ "Tk",               NULL,      NULL,  0,         1,          -1 },
 	{ "Blueman-manager",  NULL,      NULL,  0,         1,          -1 },
 	{ "Arandr",           NULL,      NULL,  0,         1,          -1 },
-	{ "Alacritty",        "floater", NULL,  0,         1,          -1 },
+	{  NULL,             "teapot",   NULL,  0,         1,          -1 },
+	{ "Alacritty",       "floater",  NULL,  0,         1,          -1 },
 };
 
 /* layout(s) */
